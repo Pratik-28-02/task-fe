@@ -1,8 +1,8 @@
 import './App.css'
-import TaskList from './pages/TaskList'
-import CreateTaskList from './pages/CreateTaskList'
-import TaskListDetails from './pages/TaskListDetails'
-import AddTask from './pages/AddTask'
+import TaskList from './pages/TaskList.jsx'
+import CreateTaskList from './pages/CreateTaskList.jsx'
+import TaskListDetails from './pages/TaskListDetails.jsx'
+import AddTask from './pages/AddTask.jsx'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 
 function App() {
